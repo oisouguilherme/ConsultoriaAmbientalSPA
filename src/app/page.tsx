@@ -1,5 +1,6 @@
 import { About } from '@/components/HomePage/About'
 import { Footer } from '@/components/HomePage/Footer'
+import Header from '@/components/HomePage/Header'
 import { OurNumbers } from '@/components/HomePage/OurNumbers'
 import { Parceiros } from '@/components/HomePage/Parceiros'
 import { Projects } from '@/components/HomePage/Projects'
@@ -11,6 +12,7 @@ import { Testimonials } from '@/components/HomePage/Testimonials'
 export default function Home() {
   return (
     <div>
+      <Header/>
       <SlideMain/>
       <Services/>
       <About/>
