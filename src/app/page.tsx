@@ -1,8 +1,12 @@
 import { About } from '@/components/HomePage/About'
+import { Footer } from '@/components/HomePage/Footer'
+import { OurNumbers } from '@/components/HomePage/OurNumbers'
 import { Parceiros } from '@/components/HomePage/Parceiros'
+import { Projects } from '@/components/HomePage/Projects'
+import { RecentBlog } from '@/components/HomePage/RecentBlogHome/RecentBlog'
 import { Services } from '@/components/HomePage/ServiceHome/Services'
 import { SlideMain } from '@/components/HomePage/SlideMain'
-import Image from 'next/image'
+import { Testimonials } from '@/components/HomePage/Testimonials'
 
 export default function Home() {
   return (
@@ -11,6 +15,11 @@ export default function Home() {
       <Services/>
       <About/>
       <Parceiros/>
+      <OurNumbers/>
+      <Projects/>
+      <Testimonials/>
+      <RecentBlog/>
+      <Footer/>
     </div>
   )
 }
