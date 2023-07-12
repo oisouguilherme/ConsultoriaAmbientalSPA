@@ -1,3 +1,4 @@
+import { AboutMe } from "@/components/AboutUs/AboutMe";
 import { HeaderAbout } from "@/components/AboutUs/HeaderAbout";
 import { MainAbout } from "@/components/AboutUs/MainAbout";
 import { OurNumbers } from "@/components/HomePage/OurNumbers";
@@ -10,6 +11,7 @@ export default function Sobre(){
       <HeaderAbout/>
       <MainAbout/>
       <OurNumbers/>
+      <AboutMe/>
       <Testimonials/>
       <Parceiros/>
     </div>

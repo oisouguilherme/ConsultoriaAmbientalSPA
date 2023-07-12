@@ -2,28 +2,25 @@ export function MainContato() {
   return (
     <div>
       <div className="max-w-6xl mx-auto px-4 py-20">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-20">
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Sobre Nós</h3>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              quidem iure impedit quibusdam aperiam at
+            <p className="text-gray-500 text-sm">
+              Identifico os desafios ambientais específicos que você enfrenta e desenvolvo estratégias inovadoras para minimizar impactos negativos.
             </p>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Nosso Endereço</h3>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet consectetur <br />
-              Adipisicing elit. Suscipit <br />
-              Quidem iure impedit quibusdam aperiam at
+            <p className="text-gray-500 text-sm">
+              Rua sei la, 264, Centro <br />
+              Formosa-GO, Brasil <br />
             </p>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Informações de Contato</h3>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet consectetur <br />
-              Adipisicing elit. Suscipit <br />
-              Quidem iure impedit quibusdam aperiam at
+            <p className="text-gray-500 text-sm">
+              Email: teste@gmail.com <br />
+              Telefone: (38) 99824-5622 <br />
             </p>
           </div>
         </div>

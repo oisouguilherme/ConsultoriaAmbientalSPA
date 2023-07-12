@@ -6,24 +6,28 @@ export function Projects() {
   return (
     <div className="max-w-6xl mx-auto px-4 text-center py-20">
       <Subtitle subtitle="Conheça as soluções inovadoras que desenvolvemos para nossos clientes" />
-      <Title title="Experiência em Projetos Ambientais de Sucesso"/>
+      <Title title="Experiência em Projetos Ambientais de Sucesso" />
       <div className="grid md:grid-cols-2 mt-12">
-        <div className="bg-gray-100 text-start text-lg p-12 relative">
-          <p>Conheça as soluções inovadoras que desenvolvemos para nossos clientes</p>
-          <Title title="Experiência em Projetos Ambientais de Sucesso"/>
-          <p className="text-base py-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempora
-            rem, doloribus sunt repellat iste?
+        <div className="bg-gray-100 text-start text-lg p-12">
+          <Title title="Transformando Desafios em Resultados Sustentáveis" />
+          <p className="text-base pt-8">
+            Desenvolvemos soluções personalizadas que equilibram as necessidades
+            do negócio com a preservação do meio ambiente.
           </p>
-          <p className="font-bold">
-            Goal: <span className="font-medium">1000000 USD</span>
+          <p className="text-base pb-8 pt-2">
+            Nossos projetos alcançaram resultados significativos, reduzindo o
+            impacto ambiental e proporcionando benefícios tangíveis. Estamos
+            comprometidos em entregar soluções eficientes e criar um legado
+            sustentável.
           </p>
-          <p className="font-bold">
-            Relsed: <span className="font-medium">2000000 USD</span>
+          <p className="font-medium text-sm">
+            - Reduzimos as emissões de carbono em mais de 30% em nossos projetos
+            anteriores.
           </p>
-          <div className="bg-green-700 rounded-full items-center justify-center w-20 h-20 absolute text-xs text-white font-medium top-40 -right-10 text-center hidden md:flex">
-            10% <br /> Donated
-          </div>
+          <p className="font-medium text-sm">
+            - Alcançamos uma redução de consumo de água de 40% em instalações
+            industriais por meio de nossas soluções inovadoras.
+          </p>
         </div>
         <Image
           src="/imageTest.webp"

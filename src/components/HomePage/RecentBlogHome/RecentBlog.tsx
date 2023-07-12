@@ -8,9 +8,9 @@ export function RecentBlog(){
       <Subtitle subtitle="Postagem Recente" />
       <Title title="Mantenha-se Atualizado com as Últimas Notícias Ambientais"/>
       <div className="flex justify-center gap-8 flex-wrap text-start pt-12">
-        <BlogCard/>
-        <BlogCard/>
-        <BlogCard/>
+        <BlogCard titleNotice="Consultoria Ambiental: Promovendo a Sustentabilidade e o Cumprimento das Normas Ambientais."/>
+        <BlogCard titleNotice="Gestão Ambiental: Preservando Recursos Naturais e Promovendo o Equilíbrio Sustentável."/>
+        <BlogCard titleNotice="Licenciamento Ambiental: Promovendo a Sustentabilidade e a Proteção do Meio Ambiente."/>
       </div>
     </div>
   )

@@ -1,12 +1,12 @@
-export function BlogCard(){
+export function BlogCard({titleNotice}:any){
   return(
     <div className="bg-[url('/imageTest.webp')] bg-cover w-80 cursor-pointer">
-      <div className="px-12 py-8 space-y-20 bg-black bg-opacity-70">
+      <div className="px-12 py-8 space-y-20 bg-black h-full bg-opacity-80 flex flex-col justify-between">
         <div className="bg-yellow-300 w-fit font-medium px-3 py-1 text-center text-xs">
-          <p>Aug</p>
-          <p className="font-bold text-lg">02</p>
+          <p>Jul</p>
+          <p className="font-bold text-lg">12</p>
         </div>
-        <p className="text-white font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <p className="text-white font-medium text-sm">{titleNotice}</p>
       </div>
     </div>
   )

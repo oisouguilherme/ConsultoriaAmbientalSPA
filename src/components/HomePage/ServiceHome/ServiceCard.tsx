@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function ServiceCard(){
+export function ServiceCard({title, subtitle}:any){
   return (
     <div className="w-80">
       <Image
@@ -10,10 +10,9 @@ export function ServiceCard(){
         height={320}
       />
       <div className="px-8 py-3">
-        <h4 className="font-medium">Lorem, ipsum.</h4>
-        <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum
-          distinctio optio.
+        <h4 className="font-medium">{title}</h4>
+        <p className="text-sm">
+          {subtitle}
         </p>
         <button className="mt-4 bg-gray-100 rounded-full p-3">
           <svg
