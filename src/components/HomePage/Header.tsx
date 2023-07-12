@@ -46,17 +46,17 @@ export default function Header() {
                 <Link href="/sobre">Sobre Nós</Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link onClick={toggleMenu} href="maisvendidos">
+                <Link onClick={toggleMenu} href="/projetos">
                   Projetos
                 </Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link onClick={toggleMenu} href="nossosprodutos">
+                <Link onClick={toggleMenu} href="/noticias">
                   Noticias
                 </Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link onClick={toggleMenu} href="nossosprodutos">
+                <Link onClick={toggleMenu} href="/contato">
                   Contato
                 </Link>
               </li>
@@ -72,13 +72,13 @@ export default function Header() {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="maisvendidos">Projetos</Link>
+              <Link href="/projetos">Projetos</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="nossosprodutos">Noticias</Link>
+              <Link href="/noticias">Noticias</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="nossosprodutos">Contato</Link>
+              <Link href="/contato">Contato</Link>
             </li>
           </ul>
         </div>
