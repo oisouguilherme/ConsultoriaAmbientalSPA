@@ -1,10 +1,9 @@
-"use client"
+"use client";
 import Image from "next/image";
 
 import { useState } from "react";
 
 import Link from "next/link";
-
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +17,13 @@ export default function Header() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div className="cursor-pointer ">
           <Link href="/">
-            <Image src="/logo.png" alt="Logo Goistore" width={200} height={100} className="w-44"/>
+            <Image
+              src="/logo.png"
+              alt="Logo Goistore"
+              width={200}
+              height={100}
+              className="w-44"
+            />
           </Link>
         </div>
         <div className="lg:hidden">
@@ -46,12 +51,13 @@ export default function Header() {
                 </Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link
-                  onClick={toggleMenu}
-                
-                  href="nossosprodutos"
-                >
+                <Link onClick={toggleMenu} href="nossosprodutos">
                   Noticias
+                </Link>
+              </li>
+              <li className="cursor-pointer text-green-900 font-medium duration-300">
+                <Link onClick={toggleMenu} href="nossosprodutos">
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -66,14 +72,13 @@ export default function Header() {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="maisvendidos">
-                Projetos
-              </Link>
+              <Link href="maisvendidos">Projetos</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="nossosprodutos">
-                Noticias
-              </Link>
+              <Link href="nossosprodutos">Noticias</Link>
+            </li>
+            <li className="cursor-pointer duration-300">
+              <Link href="nossosprodutos">Contato</Link>
             </li>
           </ul>
         </div>

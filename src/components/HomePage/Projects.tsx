@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { Title } from "../Utils/Title";
+import { Subtitle } from "../Utils/Subtitle";
 
 export function Projects() {
   return (
     <div className="max-w-6xl mx-auto px-4 text-center py-20">
-      <p className="text-lg text-green-600">Conheça as soluções inovadoras que desenvolvemos para nossos clientes</p>
+      <Subtitle subtitle="Conheça as soluções inovadoras que desenvolvemos para nossos clientes" />
       <Title title="Experiência em Projetos Ambientais de Sucesso"/>
       <div className="grid md:grid-cols-2 mt-12">
         <div className="bg-gray-100 text-start text-lg p-12 relative">

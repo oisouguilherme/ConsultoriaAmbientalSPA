@@ -1,13 +1,14 @@
 import Image from "next/image";
 import { Title } from "../Utils/Title";
 import Link from "next/link";
+import { Subtitle } from "../Utils/Subtitle";
 
 export function About() {
   return (
     <div className="bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 py-20 gap-12">
         <div className="sm:text-lg">
-          <p>Especialistas em Consultoria Ambiental</p>
+          <Subtitle subtitle="Especialistas em Consultoria Ambiental" />
           <Title title="Conheça nossa equipe comprometida em preservar o meio ambiente e impulsionar a sua empresa" />
           <p className="py-12">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -15,7 +16,10 @@ export function About() {
             sit, consequatur officia ex nisi reiciendis nesciunt illum quaerat
             veniam ducimus fugit totam ipsam.
           </p>
-          <Link href={"#"} className="flex items-center gap-8 bg-green-700 hover:bg-green-800 duration-300 text-white font-medium py-6 px-10">
+          <Link
+            href={"#"}
+            className="flex items-center gap-8 bg-green-700 hover:bg-green-800 duration-300 text-white font-medium py-6 px-10"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"

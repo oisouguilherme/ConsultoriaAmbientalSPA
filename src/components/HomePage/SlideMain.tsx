@@ -1,3 +1,5 @@
+import { Subtitle } from "../Utils/Subtitle";
+
 export function SlideMain(){
   return(
     <div className="bg-[url('/bg.jpg')] bg-cover bg-center text-white text-lg ">

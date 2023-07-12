@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Title } from "../Utils/Title";
+import { Subtitle } from "../Utils/Subtitle";
 
 export function Testimonials() {
   return (
     <div className="bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 py-20 text-center text-lg flex flex-col items-center">
-        <p className="text-green-600">Veja o que nossos clientes têm a dizer sobre o impacto positivo dos nossos serviços</p>
-        <Title title="Depoimentos de Clientes Satisfeitos"/>
+        <Subtitle subtitle="Veja o que nossos clientes têm a dizer sobre o impacto positivo dos nossos serviços" />
+        <Title title="Depoimentos de Clientes Satisfeitos" />
         <p className="py-12 max-w-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus
           repudiandae illo alias, optio id autem ipsa! Aliquam accusamus fugiat,
