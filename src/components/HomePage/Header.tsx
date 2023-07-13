@@ -18,7 +18,7 @@ export default function Header() {
         <div className="cursor-pointer ">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/Logo.png"
               alt="Logo Goistore"
               width={100}
               height={100}
@@ -46,7 +46,7 @@ export default function Header() {
                 <Link href="/sobre">Sobre Nós</Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link onClick={toggleMenu} href="/projetos">
+                <Link onClick={toggleMenu} href="">
                   Projetos
                 </Link>
               </li>
@@ -72,7 +72,7 @@ export default function Header() {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="/projetos">Projetos</Link>
+              <Link href="">Projetos</Link>
             </li>
             <li className="cursor-pointer duration-300">
               <Link href="/noticias">Noticias</Link>

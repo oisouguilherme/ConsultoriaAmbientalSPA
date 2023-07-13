@@ -9,15 +9,15 @@ export function RecentBlog() {
       <Title title="Mantenha-se Atualizado com as Últimas Notícias Ambientais" />
       <div className="flex justify-center gap-8 flex-wrap text-start pt-12">
         <BlogCard
-          style="bg-[url('/images/arvores.jpg')]"
+          style="bg-[url('/arvores.jpg')]"
           titleNotice="Consultoria Ambiental: Promovendo a Sustentabilidade e o Cumprimento das Normas Ambientais."
         />
         <BlogCard
-          style="bg-[url('/images/gestao.jpg')]"
+          style="bg-[url('/gestao.jpg')]"
           titleNotice="Gestão Ambiental: Preservando Recursos Naturais e Promovendo o Equilíbrio Sustentável."
         />
         <BlogCard
-          style="bg-[url('/images/licensa.jpg')]"
+          style="bg-[url('/licensa.jpg')]"
           titleNotice="Licenciamento Ambiental: Promovendo a Sustentabilidade e a Proteção do Meio Ambiente."
         />
       </div>

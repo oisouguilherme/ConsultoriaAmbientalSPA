@@ -11,7 +11,11 @@ export function About() {
           <Subtitle subtitle="Especialista em Consultoria Ambiental" />
           <Title title="Transformando a Paixão pela Natureza em Soluções Sustentáveis" />
           <p className="py-12">
-            Sou um consultor ambiental especializado, dedicado a ajudar empresas a implementar práticas sustentáveis e atender às regulamentações ambientais. Com conhecimento técnico e paixão pelo meio ambiente, ofereço soluções personalizadas para reduzir impactos e promover um futuro mais verde. Vamos construir um mundo melhor, juntos!
+            Sou um consultor ambiental especializado, dedicado a ajudar empresas
+            a implementar práticas sustentáveis e atender às regulamentações
+            ambientais. Com conhecimento técnico e paixão pelo meio ambiente,
+            ofereço soluções personalizadas para reduzir impactos e promover um
+            futuro mais verde. Vamos construir um mundo melhor, juntos!
           </p>
           <Link
             href={"#"}
@@ -35,7 +39,7 @@ export function About() {
         </div>
         <div>
           <Image
-            src="/images/florestaSol.jpg"
+            src="/florestaSol.jpg"
             alt="Teste"
             width={1200}
             height={1200}
