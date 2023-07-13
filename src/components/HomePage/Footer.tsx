@@ -6,11 +6,11 @@ export function Footer(){
     <div className="bg-green-950">
       <div className="flex gap-4 flex-wrap justify-between max-w-6xl mx-auto px-4 py-8">
         <Image
-          src="/logo.png"
+          src="/images/logo.png"
           alt="Imagem Teste"
           width={320}
           height={320}
-          className="w-40"
+          className="w-16"
         />
         <div className="flex gap-4 items-center">
           <div className="bg-white p-2 rounded-full">

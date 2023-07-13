@@ -30,34 +30,34 @@ export function Projects() {
           </p>
         </div>
         <Image
-          src="/imageTest.webp"
+          src="/images/homem.jpg"
           alt="Imagem Teste"
-          width={320}
-          height={320}
+          width={800}
+          height={800}
           className="w-full h-full object-cover"
         />
       </div>
       <div className="grid grid-cols-3 gap-8 mt-8">
         <Image
-          src="/imageTest.webp"
+          src="/images/arvores.jpg"
           alt="Imagem Teste"
-          width={320}
-          height={320}
-          className="w-full"
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
         />
         <Image
-          src="/imageTest.webp"
+          src="/images/grupo.webp"
           alt="Imagem Teste"
-          width={320}
-          height={320}
-          className="w-full"
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
         />
         <Image
-          src="/imageTest.webp"
+          src="/images/farm.webp"
           alt="Imagem Teste"
-          width={320}
-          height={320}
-          className="w-full"
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
         />
       </div>
     </div>

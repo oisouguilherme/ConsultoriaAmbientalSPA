@@ -12,7 +12,7 @@ export function CardProjeto() {
           height={320}
         />
       </div>
-      <div className="bg-gray-100 p-12 space-y-4 flex flex-col">
+      <div className="bg-gray-100 py-4 px-8 space-y-4 flex flex-col">
         <h2 className="text-2xl font-bold">Lorem, ipsum dolor</h2>
         <p className="">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum distinctio

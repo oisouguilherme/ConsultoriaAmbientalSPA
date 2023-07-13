@@ -1,14 +1,17 @@
 import Image from "next/image";
 
-export function ServiceCard({title, subtitle}:any){
+export function ServiceCard({title, subtitle, image}:any){
   return (
     <div className="w-80">
-      <Image
-        src="/imageTest.webp"
-        alt="Imagem Teste"
-        width={320}
-        height={320}
-      />
+      <div>
+        <Image
+          src={image}
+          alt="Imagem Teste"
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
+        />
+      </div>
       <div className="px-8 py-3">
         <h4 className="font-medium">{title}</h4>
         <p className="text-sm">

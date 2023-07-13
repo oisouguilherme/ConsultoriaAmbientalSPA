@@ -35,10 +35,10 @@ export function About() {
         </div>
         <div>
           <Image
-            src="/imageTest.webp"
+            src="/images/maoTerra.jpg"
             alt="Teste"
-            width={500}
-            height={200}
+            width={800}
+            height={800}
             className="w-full h-full object-cover"
           />
         </div>
