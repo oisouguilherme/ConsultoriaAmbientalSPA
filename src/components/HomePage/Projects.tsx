@@ -30,7 +30,7 @@ export function Projects() {
           </p>
         </div>
         <Image
-          src="/images/homem.jpg"
+          src="/images/resultado.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
@@ -39,21 +39,21 @@ export function Projects() {
       </div>
       <div className="grid grid-cols-3 gap-8 mt-8">
         <Image
-          src="/images/arvores.jpg"
+          src="/images/resultado1.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
           className="w-full h-56 object-cover"
         />
         <Image
-          src="/images/grupo.webp"
+          src="/images/resultado2.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
           className="w-full h-56 object-cover"
         />
         <Image
-          src="/images/farm.webp"
+          src="/images/resultado3.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}

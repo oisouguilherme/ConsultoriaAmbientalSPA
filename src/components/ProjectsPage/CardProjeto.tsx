@@ -1,20 +1,20 @@
 import Image from "next/image";
 
-export function CardProjeto() {
+export function CardProjeto({image}:any) {
   return (
-    <div className="w-80">
+    <div className="w-80 rounded-lg overflow-hidden shadow-lg">
       <div>
         <Image
-          src="/imageTest.webp"
+          src={image}
           alt="Imagem Teste"
-          className="w-full"
-          width={320}
-          height={320}
+          className="w-full h-64 object-cover"
+          width={800}
+          height={800}
         />
       </div>
       <div className="bg-gray-100 py-4 px-8 space-y-4 flex flex-col">
-        <h2 className="text-2xl font-bold">Lorem, ipsum dolor</h2>
-        <p className="">
+        <h2 className="text-xl font-bold">Lorem, ipsum dolor</h2>
+        <p className="text-sm">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum distinctio
         </p>
 

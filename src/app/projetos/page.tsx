@@ -6,12 +6,12 @@ export default function Projetos(){
     <div>
       <HeaderProjects/>
       <div className="max-w-6xl mx-auto px-4 py-20 flex gap-12 flex-wrap justify-center">
-        <CardProjeto/>
-        <CardProjeto/>
-        <CardProjeto/>
-        <CardProjeto/>
-        <CardProjeto/>
-        <CardProjeto/>
+        <CardProjeto image="/images/projetos/projetoAgro.jpg"/>
+        <CardProjeto image="/images/projetos/projetoLav.jpg"/>
+        <CardProjeto image="/images/projetos/projetoMico.jpg"/>
+        <CardProjeto image="/images/projetos/projetoMot.jpg"/>
+        <CardProjeto image="/images/projetos/projetoPark.jpg"/>
+        <CardProjeto image="/images/projetos/projetoAgro.jpg"/>
       </div>
     </div>
   )

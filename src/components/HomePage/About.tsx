@@ -35,10 +35,10 @@ export function About() {
         </div>
         <div>
           <Image
-            src="/images/maoTerra.jpg"
+            src="/images/florestaSol.jpg"
             alt="Teste"
-            width={800}
-            height={800}
+            width={1200}
+            height={1200}
             className="w-full h-full object-cover"
           />
         </div>

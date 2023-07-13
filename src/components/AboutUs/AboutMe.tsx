@@ -8,10 +8,10 @@ export function AboutMe() {
       <div className="max-w-6xl mx-auto py-20 grid md:grid-cols-2 items-center">
         <div className="px-4 h-full">
           <Image
-            src="/imageTest.webp"
+            src="/images/edvaldo.jpg"
             alt="Imagem Teste"
-            width={320}
-            height={320}
+            width={800}
+            height={800}
             className="w-full h-full object-cover"
           />
         </div>
