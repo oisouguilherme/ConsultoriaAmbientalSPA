@@ -1,24 +1,57 @@
 import Image from "next/image";
+import { Title } from "../Utils/Title";
 
-export function CardProjeto({image}:any) {
+export function CardProjeto({
+  title,
+  text1,
+  text2,
+  image1,
+  image2,
+  image3,
+  image4,
+}: any) {
   return (
-    <div className="w-80 rounded-lg overflow-hidden shadow-lg">
-      <div>
+    <div className="max-w-6xl mx-auto px-4">
+      <div className="grid md:grid-cols-2 mt-12">
+        <div className="bg-gray-100 text-start text-lg p-4 sm:p-12">
+          <Title title={title} />
+          <p className="text-base pt-8">
+            {text1}
+          </p>
+          <p className="text-base pt-2">
+            {text2}
+          </p>
+        </div>
         <Image
-          src={image}
-          alt="Imagem Teste"
-          className="w-full h-64 object-cover"
+          src={image1}
+          alt={title}
           width={800}
           height={800}
+          className="w-full h-full object-cover"
         />
       </div>
-      <div className="bg-gray-100 py-4 px-8 space-y-4 flex flex-col">
-        <h2 className="text-xl font-bold">Lorem, ipsum dolor</h2>
-        <p className="text-sm">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum distinctio
-        </p>
-
-        <a href="#" className="bg-green-700 hover:bg-green-600 duration-300 text-center text-white py-2 font-medium sm:text-lg">Saiba mais</a>
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+        <Image
+          src={image2}
+          alt={title}
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
+        />
+        <Image
+          src={image3}
+          alt={title}
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
+        />
+        <Image
+          src={image4}
+          alt={title}
+          width={800}
+          height={800}
+          className="w-full h-56 object-cover"
+        />
       </div>
     </div>
   );

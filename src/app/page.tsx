@@ -1,4 +1,5 @@
 import { About } from '@/components/HomePage/About'
+import { AboutConsultor } from '@/components/HomePage/AboutConsultor'
 import { OurNumbers } from '@/components/HomePage/OurNumbers'
 import { Parceiros } from '@/components/HomePage/Parceiros'
 import { Projects } from '@/components/HomePage/Projects'
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <div>
       <SlideMain/>
+      <AboutConsultor/>
       <Services/>
       <About/>
       <Parceiros/>

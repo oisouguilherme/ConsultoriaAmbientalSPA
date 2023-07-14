@@ -1,3 +1,4 @@
+import { AboutBiolog } from "@/components/AboutUs/AboutBiolog";
 import { AboutMe } from "@/components/AboutUs/AboutMe";
 import { HeaderAbout } from "@/components/AboutUs/HeaderAbout";
 import { MainAbout } from "@/components/AboutUs/MainAbout";
@@ -12,6 +13,7 @@ export default function Sobre(){
       <MainAbout/>
       <OurNumbers/>
       <AboutMe/>
+      <AboutBiolog/>
       <Testimonials/>
       <Parceiros/>
     </div>

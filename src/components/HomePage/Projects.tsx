@@ -8,52 +8,40 @@ export function Projects() {
       <Subtitle subtitle="Conheça as soluções inovadoras que desenvolvemos para nossos clientes" />
       <Title title="Experiência em Projetos Ambientais de Sucesso" />
       <div className="grid md:grid-cols-2 mt-12">
-        <div className="bg-gray-100 text-start text-lg p-12">
-          <Title title="Transformando Desafios em Resultados Sustentáveis" />
+        <div className="bg-gray-100 text-start text-lg p-4 sm:p-12">
+          <Title title="Implantação de Cultura de Abacaxi no vale do Rio Paranã no Município de São João d' Aliança." />
           <p className="text-base pt-8">
-            Desenvolvemos soluções personalizadas que equilibram as necessidades
-            do negócio com a preservação do meio ambiente.
+            A cultura do abacaxi é uma atividade agrícola de grande importância econômica e social, proporcionando tanto a produção de frutos para consumo in natura como para a indústria de sucos e alimentos processados.
           </p>
-          <p className="text-base pb-8 pt-2">
-            Nossos projetos alcançaram resultados significativos, reduzindo o
-            impacto ambiental e proporcionando benefícios tangíveis. Estamos
-            comprometidos em entregar soluções eficientes e criar um legado
-            sustentável.
-          </p>
-          <p className="font-medium text-sm">
-            - Reduzimos as emissões de carbono em mais de 30% em nossos projetos
-            anteriores.
-          </p>
-          <p className="font-medium text-sm">
-            - Alcançamos uma redução de consumo de água de 40% em instalações
-            industriais por meio de nossas soluções inovadoras.
+          <p className="text-base pt-2">
+            Este projeto teve como objetivo a implantação de uma cultura de abacaxi, visando o estabelecimento de um sistema produtivo eficiente, sustentável e rentável.
           </p>
         </div>
         <Image
-          src="/resultado.jpg"
+          src="/abacaxi3.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="grid grid-cols-3 gap-8 mt-8">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
         <Image
-          src="/resultado1.jpg"
+          src="/abacaxi.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
           className="w-full h-56 object-cover"
         />
         <Image
-          src="/resultado2.jpg"
+          src="/abacaxi2.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}
           className="w-full h-56 object-cover"
         />
         <Image
-          src="/resultado3.jpg"
+          src="/abacaxi4.jpg"
           alt="Imagem Teste"
           width={800}
           height={800}

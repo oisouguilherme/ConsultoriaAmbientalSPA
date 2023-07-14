@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <section className="z-50 p-4">
+    <section className="z-50 p-4 sticky top-0 bg-white">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div className="cursor-pointer ">
           <Link href="/">
@@ -40,13 +40,13 @@ export default function Header() {
           >
             <ul className="p-8 space-y-4 text-2xl">
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link href="/">Página Inicial</Link>
+                <Link href="/" onClick={toggleMenu}>Página Inicial</Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link href="/sobre">Sobre Nós</Link>
+                <Link href="/sobre" onClick={toggleMenu}>Sobre Nós</Link>
               </li>
               <li className="cursor-pointer text-green-900 font-medium duration-300">
-                <Link onClick={toggleMenu} href="">
+                <Link onClick={toggleMenu} href="/projetos">
                   Projetos
                 </Link>
               </li>
@@ -72,7 +72,7 @@ export default function Header() {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li className="cursor-pointer duration-300">
-              <Link href="">Projetos</Link>
+              <Link href="/projetos">Projetos</Link>
             </li>
             <li className="cursor-pointer duration-300">
               <Link href="/noticias">Noticias</Link>
