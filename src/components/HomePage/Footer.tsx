@@ -5,6 +5,7 @@ import {
   IconWhatsApp,
 } from "@/assets/Icons";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -15,21 +16,21 @@ export function Footer() {
           alt="Imagem Teste"
           width={320}
           height={320}
-          className="w-16"
+          className="w-12 sm:w-16"
         />
         <div className="flex gap-4 items-center">
-          <div className="bg-white p-2 rounded-full">
+          <Link href={""} className="bg-white p-2 rounded-full">
             <IconTwitter />
-          </div>
-          <div className="bg-white p-2 rounded-full">
+          </Link>
+          <Link href={""} className="bg-white p-2 rounded-full">
             <IconFacebook />
-          </div>
-          <div className="bg-white p-2 rounded-full">
+          </Link>
+          <Link href={""} className="bg-white p-2 rounded-full">
             <IconLinkedIn />
-          </div>
-          <div className="bg-white p-2 rounded-full">
+          </Link>
+          <Link href={""} className="bg-white p-2 rounded-full">
             <IconWhatsApp />
-          </div>
+          </Link>
         </div>
       </div>
       <p className="text-white text-sm text-center pb-1">

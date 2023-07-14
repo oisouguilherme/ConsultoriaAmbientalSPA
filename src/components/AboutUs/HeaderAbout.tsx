@@ -4,8 +4,8 @@ import { Title } from "../Utils/Title";
 export function HeaderAbout() {
   return (
     <div>
-      <div className="text-center text-white bg-[url('/grass.jpg')] bg-bottom">
-        <div className="bg-green-700 py-24 bg-opacity-95 ">
+      <div className="text-center text-white bg-[url('/arvores.jpg')] bg-cover">
+        <div className="bg-green-800 py-24 bg-opacity-90 ">
           <div className="max-w-4xl px-4 mx-auto">
             <p className="sm:text-lg text-yellow-400">
               Consultoria Ambiental Especializada

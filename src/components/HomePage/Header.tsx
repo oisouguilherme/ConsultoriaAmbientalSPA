@@ -18,11 +18,11 @@ export default function Header() {
         <div className="cursor-pointer ">
           <Link href="/">
             <Image
-              src="/Logo.png"
-              alt="Logo Goistore"
+              src="/logo.png"
+              alt="Logo Consultoria do Edivaldo"
               width={100}
               height={100}
-              className="w-20"
+              className="w-12 sm:w-16"
             />
           </Link>
         </div>
