@@ -9,7 +9,7 @@ export function MainAbout() {
       <div className="max-w-6xl mx-auto py-20 grid gap-12 md:grid-cols-2 items-center">
         <div className="bg-white p-4 sm:p-12">
           <Subtitle subtitle="Experiência em Consultoria Ambiental de Alto Nível" />
-          <Title title="Guiando Empresas Rumo à Sustentabilidade" />
+          <Title title="Guiando Empresas e pessoas rumo à sustentabilidade e consciência ambiental" />
           <p className="py-8">
             Com anos de atuação na área de consultoria ambiental, tenho o
             compromisso de oferecer soluções personalizadas e inovadoras para

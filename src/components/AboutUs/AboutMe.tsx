@@ -19,6 +19,7 @@ export function AboutMe() {
         <div className="bg-white p-4 sm:p-12">
           <Subtitle subtitle="Conheça o Especialista em Consultoria Ambiental" />
           <Title title="Sobre Edivaldo Antonio Dourado da Silva" />
+          <p className="text-lg pt-2 italic">Crbio4-134316/D</p>
           <p className="py-8">
             Olá! Sou Edivaldo Antonio Dourado da Silva, um apaixonado por
             conservação ambiental e sustentabilidade. Com uma trajetória de anos

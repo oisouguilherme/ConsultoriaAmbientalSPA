@@ -51,7 +51,7 @@ export function AboutBiolog() {
         </div>
         <div className="px-4 h-full">
           <Image
-            src="/edvaldo3.jpg"
+            src="/edivaldo3.jpg"
             alt="Imagem Teste"
             width={1200}
             height={1200}
