@@ -15,7 +15,6 @@ export default function Sobre(){
       <AboutMe/>
       <AboutBiolog/>
       <Testimonials/>
-      <Parceiros/>
     </div>
   )
 }

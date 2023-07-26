@@ -7,20 +7,8 @@ export function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 py-20 text-center text-lg flex flex-col items-center">
         <Title title="Depoimentos de Clientes Satisfeitos" />
         <p className="py-12 max-w-xl italic">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus
-          repudiandae illo alias, optio id autem ipsa! Aliquam accusamus fugiat,
-          ratione quidem veritatis adipisci ducimus a eum sequi expedita fugit."
+          "Demonstrou um profundo comprometimento com a sustentabilidade e sua experiência foi inestimável para o sucesso do meu empreendimento. Recomendo fortemente os serviços do Edivaldo para qualquer pessoa que esteja buscando uma abordagem responsável e consciente em seus projetos ambientais."
         </p>
-        <div className="flex flex-col items-center font-medium">
-          <Image
-            src="/imageTest.webp"
-            alt="Imagem Teste"
-            width={320}
-            height={320}
-            className="w-16 h-16 rounded-full object-cover"
-          />
-          <p>Guilherme H</p>
-        </div>
       </div>
     </div>
   );

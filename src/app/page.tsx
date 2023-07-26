@@ -11,15 +11,14 @@ import { Testimonials } from '@/components/HomePage/Testimonials'
 export default function Home() {
   return (
     <div>
-      <SlideMain/>
-      <AboutConsultor/>
-      <Services/>
-      <About/>
-      <Parceiros/>
-      <OurNumbers/>
-      <Projects/>
-      <Testimonials/>
-      <RecentBlog/>
+      <SlideMain />
+      <AboutConsultor />
+      <Services />
+      <About />
+      <OurNumbers />
+      <Projects />
+      <Testimonials />
+      <RecentBlog />
     </div>
-  )
+  );
 }
