@@ -18,7 +18,8 @@ export function About() {
             futuro mais verde. Vamos construir um mundo melhor, juntos!
           </p>
           <Link
-            href={"#"}
+            href={"https://wa.me/5561999211039"}
+            target="_blank"
             className="flex items-center gap-8 bg-green-700 hover:bg-green-800 duration-300 text-white font-medium py-6 px-10"
           >
             <svg

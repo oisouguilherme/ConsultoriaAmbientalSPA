@@ -1,5 +1,6 @@
 import {
   IconFacebook,
+  IconInstagram,
   IconLinkedIn,
   IconTwitter,
   IconWhatsApp,
@@ -19,16 +20,16 @@ export function Footer() {
           className="w-12 sm:w-16"
         />
         <div className="flex gap-4 items-center">
-          <Link href={""} className="bg-white p-2 rounded-full">
-            <IconTwitter />
+          <Link href={"https://www.instagram.com/edivaldofazdourado/"} className="bg-white p-2 rounded-full">
+            <IconInstagram />
           </Link>
-          <Link href={""} className="bg-white p-2 rounded-full">
+          <Link href={"https://www.facebook.com/edivaldo.dourado.90"} className="bg-white p-2 rounded-full">
             <IconFacebook />
           </Link>
           <Link href={""} className="bg-white p-2 rounded-full">
             <IconLinkedIn />
           </Link>
-          <Link href={""} className="bg-white p-2 rounded-full">
+          <Link href={"https://wa.me/5561999211039"} className="bg-white p-2 rounded-full">
             <IconWhatsApp />
           </Link>
         </div>
